@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #e8d2aa6f;
+        }
+
+        .first-title-1 {
+            font-family: 'Merriweather';
+            margin: 0;
+            font-size: 15pt;
+            margin-top: 3em;
+
+        }
+
+        .first-title-2 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 29pt;
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        .first-body {
+            display: block;
+            text-align: center;
+            margin-top: 3em;
+        }
+
+        .first-title-3 {
+            background: black;
+            color: white;
+            padding: 1em;
+            width: fit-content;
+            margin-top: 1em;
+            margin-left: 2em;
+        }
+
+        .last-button {
+            display: flex;
+            justify-content: space-between;
+            padding: 2em;
+        }
+
+        .last-button button {
+            background-color: rgb(149, 216, 93);
+            font-size: 12pt;
+            border: transparent;
+            padding: .5em;
+            width: 11em;
+            border-radius: 2em;
+            font-weight: 600;
+        }
+
+        .last-button button:hover {
+            background-color: #94d85dc8;
+            cursor: pointer;
+        }
+
+        .last-button button a {
+            text-decoration: none;
+        }
+
+        .first-authors, 
+        .second-authors{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 5em;
+        }
+
+        .first-authors-1, 
+        .second-authors-1,
+        .third-authors-1 {
+            text-align: center;
+        }
+
+        .first-authors-1 h3,
+        .first-authors-1 p,
+        .second-authors-1 h3,
+        .second-authors-1 p,
+        .third-authors-1 h3,
+        .third-authors-1 p {
+            margin: 0;
+        }
+
+        .second-authors{
+            margin-left: 20px;
+            margin-top: 3em;
+        }
+
+        .third-authors{
+            display: flex;
+            justify-content: center;
+            margin-top: 3em;
+        }
+
+        .footer{
+            display: flex;
+            justify-content: center;      
+            margin-top: 10em;  
+        }
+
+        .logo img{
+            width: 100px;
+            margin-right: 10px;
+        }
+
+        .footer-text-1{
+            display: flex;
+        }
+
+        .footer-text-1 h2{
+            font-size: 16pt;
+            margin: 0;
+            margin-right: 2px;
+        }
+
+        .footer-text h3{
+            font-size: 12pt;
+            margin: 0;
+        }
+
+        .footer-text h3:nth-child(2),
+        .footer-text-1 h3{
+            margin-top: 4px;
+        }
+
+        .grade{
+            display: flex;
+            justify-content: flex-end;
+            width: 550px;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="first-body">
+        <h3 class="first-title-1"><i>Fundamentals of </i></h3>
+        <h1 class="first-title-2">Computer Science</h1>
+        <div class="grade">
+            <p class="first-title-3">Grade XI</p>
+        </div>
+    </div>
+    <div class="first-authors">
+        <div class="first-authors-1">
+            <h3>Ramesh Singh Saud</h3>
+            <p>M.Sc. CSIT, TU</p>
+            <p>Faculty Member</p>
+            <p>Central Department of Education</p>
+            <p>Nagarjuna College of IT (Academic Director)</p>
+            <p>Shanker Dev Campus</p>
+            <p>Samriddhi College</p>
+        </div>
+        <div class="first-authors-1">
+            <h3>Dilli Prasad Sharma</h3>
+            <p>MSc. Computer Science (PU)-Gold Medalist</p>
+            <p>Founder Member</p>
+            <p>Samriddhi College</p>
+        </div>
+    </div>
+
+    <div class="second-authors">
+        <div class="second-authors-1">
+            <h3>Er. Ravi Kumar Singh</h3>
+            <p>M.E Computer, PU</p>
+            <p>Head of Department</p>
+            <p>Pentagon International College</p>
+            <p>DAV College</p>
+        </div>
+        <div class="second-authors-1">
+            <h3>Dinesh Khadka</h3>
+            <p>M.Sc. CSIT</p>
+            <p>Head of Department</p>
+            <p>National College of Computer Sciences (NCCS)</p>
+            <p>Kathmandu Bernhardt College</p>
+        </div>
+    </div>
+
+    <div class="third-authors">
+        <div class="third-authors-1">
+            <h3>Lal Krishna Mallik</h3>
+            <p>MCA</p>
+            <p>Head of Department</p>
+            <p>Trinity Int'l College</p>
+            <p>Kathmandu</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="logo">
+            <img src="image/KEC.png" alt="KEC logo">
+        </div>
+        <div class="footer-text">
+            <div class="footer-text-1">
+                <h2>KEC</h2>
+                <h3>Publication and Distribution</h3> 
+            </div>
+            <h3>Kathmandu, Nepal</h3>
+            <h3>Phone: 01-4168301, 01-4241777</h3>
+
+        </div>
+    </div>
+
+    <div class="last-button">
+        <a href="index.html"><button>Cover Page</button></a>
+        <a href="second_page.html"><button>Next Page</button></a>
+    </div>
+
+</html>

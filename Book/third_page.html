@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third Page</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .content {
+            margin: 4em;
+        }
+
+        .content h1 {
+            font-size: 20pt;
+        }
+
+        .content h3 {
+            text-transform: uppercase;
+            background: black;
+            color: white;
+            padding: 2px;
+            padding-left: 5em;
+            font-size: 10pt;
+            font-weight: 500;
+            margin-top: 4em;
+            margin-bottom: 0;
+        }
+
+        .content h2{
+            margin-top: 5px;
+        }
+
+        ol {
+            counter-reset: item;
+        }
+
+        li {
+            display: block;
+            color: #363535;
+            margin-top: 3px;
+        }
+
+        li:before {
+            content: counters(item, ".") " ";
+            counter-increment: item;
+        }
+
+        .last-button {
+            display: flex;
+            justify-content: space-between;
+            padding: 2em;
+        }
+
+        .last-button button {
+            background-color: rgb(149, 216, 93);
+            font-size: 12pt;
+            border: transparent;
+            padding: .5em;
+            width: 11em;
+            border-radius: 2em;
+            font-weight: 600;
+        }
+
+        .last-button button:hover {
+            background-color: #94d85dc8;
+            cursor: pointer;
+        }
+
+        .last-button button a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <h1>Contents</h1>
+
+        <h3>Chapter 1</h3>
+
+        <h2>Introduction to Computer</h2>
+
+        <ol>
+            <li>Concept and Characteristics of a Computers
+                <ol>
+                    <li>Introduction to Computers</li>
+                    <li>Data and Information</li>
+                    <li>Characteristics of a Computer</li>
+                    <li>Word Length</li>
+                    <li>Accuracy</li>
+                    <li>Diligence</li>
+                    <li>Versatility</li>
+                    <li>Storage</li>
+                    <li>Automatic</li>
+                    <li>Power of Rembering</li>
+                    <li>Processing</li>
+                    <li>Advantages of Computers</li>
+                    <li>Disadvantages of Computers</li>
+                    <li>Limitations of Computer</li>
+                </ol>
+            </li>
+
+            <li>Applications of Computers
+                <ol>
+                    <li>Banking and Financial Company</li>
+                    <li>Education</li>
+                    <li>Industries</li>
+                    <li>Research</li>
+                    <li>Hospital</li>
+                    <li>Data Processing</li>
+                    <li>Science and Engineering</li>
+                    <li>Offices</li>
+                    <li>Business Advertisement</li>
+                    <li>Communications and Data Transfer</li>
+                    <li>Library</li>
+                    <li>Stimulation and Modeling</li>
+                    <li>Weather Forecasting</li>
+                    <li>Airline Corporation</li>
+
+                </ol>
+            </li>
+        </ol>
+    </div>
+
+    <div class="last-button">
+        <a href="second_page.html"><button>Previous Page</button></a>
+        <a href="back_page.html"><button>Next Page</button></a>
+    </div>
+</body>
+
+</html>
